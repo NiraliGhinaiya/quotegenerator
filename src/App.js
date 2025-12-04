@@ -1,5 +1,6 @@
-import { useState } from "react"
-import quotes from "./Components/Quotedata"
+import { useState } from "react";
+import quotes from "./Components/Quotedata";
+import "./App.css";
 
 function App(){
   const [quote,setQuote] = useState("")
